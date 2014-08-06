@@ -16,7 +16,16 @@
 
 void Main()
 {
-	// Mimics twitter users voting on PM candidates during a debate (if there ever is one).
+	// For anyone who's not Australian, KRudd and Abbott are (sadly) not a comedy duo.
+	// They were contenders for Prime Minister in the 2013 federal election, which typically means we get a
+	// televised debate where a live audience votes over time how much they approve of each candidate, which
+	// is plotted as a "worm" that meanders along a time series chart from high to low approval. Here
+	// we simulate the audience tweeting the name of the candidate they like as they go along. You could
+	// plug some sentiment analysis in to generate a score. If the tweet contains "sucks", give them a negative
+	// score, if the tweet contains "rules", give them a positive score.
+	
+	// The approach below could help create and manipulate a stream of tweets into the kind of shape useful
+	// for this kind of purpose.
 
 	IObservable<string> tweets = GetTweetStream();
 	
