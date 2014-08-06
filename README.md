@@ -12,4 +12,4 @@ To that end, I used a few examples to demonstrate handling events on the fly, su
   
 There is also an extended version of the ServiceMonitor example that allows you to monitor an arbitrary number of services.
 
-**The examples use LinqPad**. If you don't have LinqPad, grab it, it's a great (free) tool for learning Rx (along with other things).
+**The examples use LinqPad**. If you don't have [LinqPad](http://www.linqpad.net/), grab it, it's a great (free) tool for learning Rx (along with other things).
